@@ -1,0 +1,13 @@
+.header {
+    min-width: 1200px;
+    max-width: 1600px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    margin: 0 auto;
+}
+
+.header--flex {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
