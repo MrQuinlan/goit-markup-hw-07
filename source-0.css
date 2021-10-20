@@ -28,9 +28,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.section {
-    padding: 94px 0;
-}
+
 
 .centered-items {
     display: flex;
