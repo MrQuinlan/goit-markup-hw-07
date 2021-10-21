@@ -20,3 +20,13 @@
 .main-btn:focus {
     background-color: #188CE8;
 }
+
+.main-btn--suscribe {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px 10px 29px;
+}
+
+.main-btn--text {
+    margin-right: 10px;
+}
