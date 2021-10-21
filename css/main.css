@@ -527,9 +527,6 @@
   line-height: 1.71;
 }
 
-/* .address {
-  color: #ffffff;
-} */
 .address__link {
   display: block;
   color: rgba(255, 255, 255, 0.6);
@@ -788,6 +785,10 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
+.order-form__agreement--mrgn {
+  margin-bottom: 30px;
+}
+
 .order-form__submit-btn--centered {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -817,7 +818,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
 }
 
 .agreement__label {
