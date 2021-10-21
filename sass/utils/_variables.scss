@@ -5,34 +5,10 @@
     --icon-color: #AFB1B8;
 }
 
-* {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0)
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-}
-
-
-
-.centered-items {
-    display: flex;
-    align-items: center;
 }
 
 img {

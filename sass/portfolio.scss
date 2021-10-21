@@ -1,7 +1,22 @@
+@import './utils/reset';
+@import './utils/variables';
 @import './components/header';
-
 @import './utils/container';
 
 @import './components/logo';
 @import './components/nav';
 @import './components/contacts';
+
+@import './components/portfolio';
+
+@import './components/filters';
+
+@import './components/examples';
+
+@import './components/footer';
+@import './components/address';
+@import './components/join-us';
+@import './components/social-links';
+@import './components/suscribe';
+@import './components/subscribe-form';
+@import './components/main-button';
