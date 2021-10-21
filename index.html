@@ -21,7 +21,7 @@
 
             <!-- Навигация -->
             <div class="container header--flex">
-                <a href="./index.html" class="logo">Web<span class="logo__header">Studio</span></a>
+                <a href="./index.html" class="logo header__logo">Web<span class="logo--header-color">Studio</span></a>
                 <nav class="nav">
                     <ul class="nav-content">
                         <li class="nav-content__item">
@@ -37,7 +37,7 @@
                 </nav>
     
                 <!-- Контактьі -->
-                <ul class="contacts">
+                <ul class="contacts header__contacts">
                     <li class="contacts__item">
                         <a href="mailto:info@devstudio.com" class="contacts__link">
                             <svg class="contacts__icon" width="16" height="12">
@@ -62,7 +62,7 @@
 
             <!-- Герой -->
             <section class="hero">
-                <div class="container hero__container">
+                <div class="container">
                     <h1 class="hero__title">Эффективные решения <br /> для вашего бизнеса</h1>
                     <button type="button" class="main-btn" data-modal-open>Заказать услугу</button>
                 </div>
@@ -114,39 +114,39 @@
             </section>
 
             <!-- Чем мы занимаемся -->
-            <section class="occupations section">
+            <section class="our-occupation">
                 <div class="container">
-                    <h2 class="occupations__title">Чем мы занимаемся</h2>
-                    <ul class="occupations__list">
-                        <li class="occupations__item">
+                    <h2 class="our-occupation__title">Чем мы занимаемся</h2>
+                    <ul class="service-provide">
+                        <li class="service-provide__item">
                             <img src="./images/box1.jpg" alt="програмист работает за своим столом" width="370" height="294">
-                            <p class="occupations__text">Десктопные приложения</p>
+                            <p class="service-provide__text">Десктопные приложения</p>
                         </li>
 
-                        <li class="occupations__item">
+                        <li class="service-provide__item">
                             <img src="./images/box2.jpg" alt="вебдизайнер делает приложение для смартфона" width="370" height="294">
-                            <p class="occupations__text">Мобильные приложения</p>
+                            <p class="service-provide__text">Мобильные приложения</p>
                         </li>
 
-                        <li class="occupations__item">
+                        <li class="service-provide__item">
                             <img src="./images/box3.jpg" alt="дизайнер выбирает цвет на планшете" width="370" height="294">
-                            <p class="occupations__text">Дизайнерские решения</p>
+                            <p class="service-provide__text">Дизайнерские решения</p>
                         </li>
                     </ul>
                 </div>
             </section>
             
             <!-- Наша команда -->
-            <section class="developers section">
+            <section class="developers-team">
                 <div class="container">
-                    <h2 class="developers__title">Наша команда</h2>
-                    <ul class="developers__list">
-                        <li class="developers__item">
-                            <article class="developers__card">
+                    <h2 class="developers-team__title">Наша команда</h2>
+                    <ul class="developers-list">
+                        <li class="developers-list__item">
+                            <article class="developer-card">
                                 <img src="./images/igor_demianenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                                <div class="developers__meta" >
-                                    <h3 class="developers__name">Игорь Демьяненко</h3>
-                                    <p lang="en" class="developers__occupation">Product Designer</p>
+                                <div class="developer-card__meta" >
+                                    <h3 class="developer-card__title">Игорь Демьяненко</h3>
+                                    <p lang="en" class="developer-card__text">Product Designer</p>
                                     <ul class="social-links">
                                         <li class="social-links__item">
                                             <a href="https://www.instagram.com/" class="social-links__link" aria-label="инстаграм">
@@ -180,12 +180,12 @@
                                 </div> 
                             </article>
                         </li>
-                        <li class="developers__item">
-                            <article class="developers__card">
+                        <li class="developers-list__item">
+                            <article class="developer-card">
                                 <img src="./images/olga_repina.jpg" alt="Ольга Репина" class="teammate-photo" width="270" height="260">
-                                <div class="developers__meta">
-                                    <h3 class="developers__name">Ольга Репина</h3>
-                                    <p lang="en" class="developers__occupation">Frontend Developer</p>
+                                <div class="developer-card__meta">
+                                    <h3 class="developer-card__title">Ольга Репина</h3>
+                                    <p lang="en" class="developer-card__text">Frontend Developer</p>
                                     <ul class="social-links">
                                         <li class="social-links__item">
                                             <a href="https://www.instagram.com/" class="social-links__link" aria-label="инстаграм">
@@ -219,12 +219,12 @@
                                 </div>
                             </article>
                         </li>
-                        <li class="developers__item">
-                            <article class="developers__card">
+                        <li class="developers-list__item">
+                            <article class="developer-card">
                                 <img src="./images/nikolai_tarasov.jpg" alt="Николай Тарасов" class="teammate-photo" width="270" height="260">
-                                <div class="developers__meta">
-                                    <h3 class="developers__name">Николай Тарасов</h3>
-                                    <p lang="en" class="developers__occupation">Marketing</p>
+                                <div class="developer-card__meta">
+                                    <h3 class="developer-card__title">Николай Тарасов</h3>
+                                    <p lang="en" class="developer-card__text">Marketing</p>
                                     <ul class="social-links">
                                         <li class="social-links__item">
                                             <a href="https://www.instagram.com/" class="social-links__link" aria-label="инстаграм">
@@ -258,12 +258,12 @@
                                 </div>
                             </article>
                         </li>
-                        <li class="developers__item">
-                            <article class="developers__card">
+                        <li class="developers-list__item">
+                            <article class="developer-card">
                                 <img src="./images/mikhail_ermakov.jpg" alt="Михаил Ермаков" class="teammate-photo" width="270" height="260">
-                                <div class="developers__meta">
-                                    <h3 class="developers__name">Михаил Ермаков</h3>
-                                    <p lang="en" class="developers__occupation">UI Designer</p>
+                                <div class="developer-card__meta">
+                                    <h3 class="developer-card__title">Михаил Ермаков</h3>
+                                    <p lang="en" class="developer-card__text">UI Designer</p>
                                     <ul class="social-links">
                                         <li class="social-links__item">
                                             <a href="https://www.instagram.com/" class="social-links__link" aria-label="инстаграм">
@@ -301,48 +301,48 @@
                 </div>
             </section>
             <!-- Постоянные клиенты -->
-            <section class="clients section">
+            <section class="clients">
                 <div class="container">
                     <h2 class="clients__title">Постоянные клиенты</h2>
-                    <ul class="clients__list">
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-1">
-                                <svg class="clients__icon" width="106" height="60">
+                    <ul class="clients-list">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-1">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-1"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-2">
-                                <svg class="clients__icon" width="106" height="60">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-2">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-2"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-3">
-                                <svg class="clients__icon" width="106" height="60">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-3">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-3"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-4">
-                                <svg class="clients__icon" width="106" height="60">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-4">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-4"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-5">
-                                <svg class="clients__icon" width="106" height="60">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-5">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-5"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="clients__item">
-                            <a href="#" class="clients__link" aria-label="Компания-клиент-6">
-                                <svg class="clients__icon" width="106" height="60">
+                        <li class="clients-list__item">
+                            <a href="#" class="clients-list__link" aria-label="Компания-клиент-6">
+                                <svg class="clients-list__icon" width="106" height="60">
                                     <use href="./images/icons.svg#client-6"></use>
                                 </svg>
                             </a>
@@ -356,11 +356,9 @@
         <footer class="footer">
 
             <!-- Логотип -->
-            <div class="container footer-flex">
-                <div class="logo-column" >
-                    <p class="description">
-                        <a href="./index.html" class="logo">Web<span class="studio-footer">Studio</span></a>
-                    </p>
+            <div class="footer--flex container">
+                <div class="footer__left-column" >
+                    <a href="./index.html" class="logo footer__logo">Web<span class="logo--footer-color">Studio</span></a>
                     
                     <!-- Адрес -->
                     <address class="address-footer">
