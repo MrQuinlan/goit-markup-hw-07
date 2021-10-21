@@ -4,10 +4,10 @@
 
 .service-provide__item {
   position: relative;
-}
 
-.service-provide__item:not(:first-child) {
-  margin-left: 30px;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .service-provide__text {

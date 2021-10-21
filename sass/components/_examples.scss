@@ -8,14 +8,14 @@
 .examples__item {
     margin: 0 30px 30px 0;
     background-color: #ffffff;
-}
 
-.examples__item:nth-child(3n) {
-    margin-right: 0;
-}
-
-.examples__item:nth-child(n + 7) {
-    margin-bottom: 0;
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    &:nth-child(n + 7) {
+        margin-bottom: 0;
+    }
 }
 
 .examples__link {
@@ -25,12 +25,12 @@
     box-shadow: none;
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.examples__link:hover,
-.examples__link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
 
 .examples__overlay {
@@ -57,14 +57,16 @@
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     padding: 63px 24px;
+
+    .examples__link:hover &,
+    .examples__link:focus & {
+        background-color: rgba(33, 150, 243, 0.9);
+        opacity: 1;
+        transform: translateY(-100%);
+    }
 }
 
-.examples__link:hover .examples__overlay-text,
-.examples__link:focus .examples__overlay-text {
-    background-color: rgba(33, 150, 243, 0.9);
-    opacity: 1;
-    transform: translateY(-100%);
-}
+
 
 .examples__meta {
     padding: 20px 24px;
